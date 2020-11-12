@@ -1,0 +1,30 @@
+#gross {
+  background-color: papayawhip;
+}
+#fees {
+  background-color: azure;
+}
+#net {
+  background-color: thistle;
+}
+.section {
+  min-height: 48px;
+  padding: 32px;
+  flex: auto;
+  flex-direction: column;
+}
+.fees {
+  display: block;
+}
+
+#fees p {
+  display: block;
+  margin: 16px 0;
+}
+
+#fees input {
+  margin-right: 16px;
+}
+#final.negativeNet {
+  color: red;
+}
